@@ -49,31 +49,34 @@ body {
   color: cyan;
   font-weight: 400;
 }
+.nft-card div {
+  overflow: auto;
+}
 .nft-card div.img-container {
   position: relative;
   width: 100%;
   border-radius: 10px;
   overflow: hidden;
   transition: max-width 250ms ease;
-  border: 24px;
   cursor: pointer;
 }
 .nft-card div.img-container img.cube {
   width: 100%;
-  position: relative;
-}
-.nft-card div.img-container img.eye {
   position: absolute;
-  width: 100%;
-  padding: 40%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  overflow: auto;
+}
+.nft-card div.img-container img.eye {
+  position: relative;
+  width: 100%;
+  padding: 40%;
   opacity: 0;
   transition: opacity 250ms ease;
   background: #00fff7;
   border-radius: 10px;
-  overflow: hidden;
+  overflow: auto;
 }
 .nft-card div.img-container:hover img.eye {
   opacity: 0.5;

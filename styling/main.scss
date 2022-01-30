@@ -60,6 +60,7 @@ body {
   }
 
   div {
+    overflow: auto;
 
     &.img-container {
      position: relative;
@@ -67,27 +68,26 @@ body {
      border-radius: 10px;
      overflow: hidden;
      transition: max-width 250ms ease;
-     border: 24px;
      cursor: pointer;
 
         img.cube {
           width: 100%;
-          position: relative;
-            
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          overflow: auto;
         }
 
         img.eye {
-            position: absolute;
+            position: relative;
             width: 100%;
             padding: 40%;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
             opacity: 0;
             transition: opacity 250ms ease;
             background: $cyan;
             border-radius: 10px;
-            overflow: hidden;
+            overflow: auto;
             
         }
 
