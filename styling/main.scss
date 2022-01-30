@@ -19,8 +19,9 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: $main-bg;
-  position: relative;
+  position: absolute;
   color: white;
+  overflow: auto;
 }
 
 .nft-card {
