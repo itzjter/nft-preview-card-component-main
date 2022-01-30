@@ -50,12 +50,12 @@ body {
   font-weight: 400;
 }
 .nft-card div.img-container {
-  width: 100%;
   position: relative;
   width: 100%;
   border-radius: 10px;
   overflow: hidden;
   transition: max-width 250ms ease;
+  border: 24px;
   cursor: pointer;
 }
 .nft-card div.img-container img.cube {
@@ -64,6 +64,7 @@ body {
 }
 .nft-card div.img-container img.eye {
   position: absolute;
+  width: 100%;
   padding: 40%;
   top: 50%;
   left: 50%;
@@ -72,6 +73,7 @@ body {
   transition: opacity 250ms ease;
   background: #00fff7;
   border-radius: 10px;
+  overflow: hidden;
 }
 .nft-card div.img-container:hover img.eye {
   opacity: 0.5;
