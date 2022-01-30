@@ -1,4 +1,7 @@
 # nft-preview-card-component-main
+
+Responsive Design Missing
+
 live site: https://jter-nft-preview-card-component-main.netlify.app/
 
 I've just completed a front-end coding challenge from Frontend Mentor.
